@@ -206,16 +206,16 @@ const bigProjects = {
     {
       image: require("./assets/images/studypath.png"),
       projectName: "studypath",
-      projectDesc: "A edtech product that enable student regardless of educational background have access to quality educatiom",
+      projectDesc:
+        "A edtech product that enable student regardless of educational background have access to quality educatiom",
       footerLink: [
         {
           name: "Visit Website",
-          url: "yourstudypath.com"
+          url: "https://yourstudypath.com/"
         }
         //  you can add extra buttons here.
       ]
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

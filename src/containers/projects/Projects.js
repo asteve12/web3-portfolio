@@ -4,6 +4,8 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import PersonalProj from "../../personalProject"
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -69,6 +71,37 @@ export default function Projects() {
       </Suspense>
     );
   } else {
-    return <FailedLoading />;
+    return (
+      <section className="main" id="opensource">
+        <p>Personal Projects</p>
+        <div className="card-container">
+          {PersonalProj
+            ? PersonalProj.map(eachImg => {
+                return (
+                  <div className="portfolio-card">
+                    <img src={eachImg.img} className="portfolio-image"></img>
+                    <section className="portfolio-text">
+                      <h5>Technology</h5>
+                      <p>{eachImg.desc}</p>
+                      <a
+                        style={{
+                          backgroundColor: "#571C8C",
+                          color: "white",
+                          fontSize: "12px",
+                          padding: "10px"
+                        }}
+                        href={eachImg.url}
+                      >
+                        visit website
+                      </a>
+                    </section>
+                  </div>
+                );
+              })
+            : null}
+        </div>
+        ;
+      </section>
+    );
   }
 }
