@@ -10,7 +10,7 @@ export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
   );
-  const FailedLoading = () => null;
+  //const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
@@ -79,7 +79,7 @@ export default function Projects() {
             ? PersonalProj.map(eachImg => {
                 return (
                   <div className="portfolio-card">
-                    <img src={eachImg.img} className="portfolio-image"></img>
+                    <img src={eachImg.img} className="portfolio-image" alt=""></img>
                     <section className="portfolio-text">
                       <h5>Technology</h5>
                       <p>{eachImg.desc}</p>
