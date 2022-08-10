@@ -156,10 +156,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Web3 Frontend developer",
+      company: "Dexfiat",
+      companylogo: require("./assets/images/dexfiat.jpeg"),
+   
+      desc: " converting of figma design to code and enusre they are responsive across all device and smart contract integration ",
+    
+    },
+    {
       role: "Founding Frontend developer",
       company: "studyPath",
       companylogo: require("./assets/images/studypath.png"),
-      date: "Jan 2022 – Present",
+     
       desc: " i was in charge of building the ui of the platform and all the neccessary functionality ",
       descBullets: [
         "i partake in making major decision that are critical to the success of the project "
@@ -169,21 +177,21 @@ const workExperiences = {
       role: "Front-End Developer",
       company: "jbuit",
       companylogo: require("./assets/images/jbuit.jpeg"),
-      date: "May 2021 – december 2021",
+     
       desc: " i was building and converting figma design to code and ensure they are responsive across all platform"
     },
     {
       role: "frontend developer Intern",
       company: "illumino",
       companylogo: require("./assets/images/illumino.jpg"),
-      date: "Jan 2019 – june 2019",
+    
       desc: "converting figma design to code and writing clean,efficient and testable code"
     },
     {
       role: "frontend developer Intern",
       company: "Hng",
       companylogo: require("./assets/images/hng.jpg"),
-      date: " september 2019 – december 2020",
+      date: " ",
       desc: "converting figma design to code and writing clean,efficient and testable code"
     }
   ]
@@ -212,6 +220,19 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://yourstudypath.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/dexfiat.jpeg"),
+      projectName: "Dexfiat",
+      projectDesc:
+        "A product that is bridging the gap between Crypto and Fiat. Your most trusted place to save, invest and earn | TradiFi & DeFi",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://dexfiat.exchange/"
         }
         //  you can add extra buttons here.
       ]
