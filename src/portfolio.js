@@ -23,7 +23,7 @@ const greeting = {
   username: "Stephen",
   title: " I'm Stephen",
   subTitle: emoji(
-    "A passionate   Frontend  Developer 🚀 having an experience of building Web  applications with JavaScript / Reactjs / typescript / firebase/ Next.js and some other cool libraries and frameworks."
+    "A passionate fullstack web3   Developer 🚀 having an experience of building Dapp Web applications with JavaScript / Reactjs / typescript / firebase/ Next.js/ solidity/ ether.js and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1bwimktfO8t6ROLFlzThMbBxvZEFlLBu0/view?usp=sharing", // Set to empty to hide the button
@@ -49,10 +49,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Am Passionate Frontend developer",
+  subTitle: "Am Passionate Fullstack web3 developer",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop fullstack dapp Applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
   ],
@@ -97,7 +97,21 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "redux-toolkit",
       fontAwesomeClassname: "fab fa-react"
+    }, {
+      skillName: "solidity",
+      fontAwesomeClassname:"fa-brands fa-node-js"
+    }, {
+      skillName: "ether.js",
+      fontAwesomeClassname:"fa-brands fa-node-js"
+    }, {
+      skillName: "hardhat",
+      fontAwesomeClassname:"fa-brands fa-node-js"
+    },
+    {
+      skillName: "node.js",
+      fontAwesomeClassname:"fa-brands fa-node-js"
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -135,8 +149,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "100%" //Insert relative proficiency in percentage
+      Stack: "fullstack web3 developer", //Insert stack or technology you have experience in
+      progressPercentage: "0%" //Insert relative proficiency in percentage
     },
     // {
     //   Stack: "Backend",
@@ -228,7 +242,7 @@ const bigProjects = {
       image: require("./assets/images/dexfiat.jpeg"),
       projectName: "Dexfiat",
       projectDesc:
-        "A product that is bridging the gap between Crypto and Fiat. Your most trusted place to save, invest and earn | TradiFi & DeFi",
+        "A web3 product that is bridging the gap between Crypto and Fiat. Your most trusted place to save, invest and earn | TradiFi & DeFi",
       footerLink: [
         {
           name: "Visit Website",
