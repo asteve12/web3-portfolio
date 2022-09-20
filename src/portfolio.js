@@ -26,7 +26,7 @@ const greeting = {
     "A passionate fullstack web3   Developer 🚀 having an experience of building Dapp Web applications with JavaScript / Reactjs / typescript / firebase/ Next.js/ solidity/ ether.js and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bwimktfO8t6ROLFlzThMbBxvZEFlLBu0/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1CI_GC-Kz1Mf94cog0LZf1M7DtIndDskQ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
